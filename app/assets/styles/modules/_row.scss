@@ -92,7 +92,7 @@
   }
 
   /* Begin Equal Height Rules - Testimonial Section */
-  &--equal-height-at-medium {
+  .flexbox &--equal-height-at-medium {
     @include atMedium {
       display: flex;
     }
@@ -103,7 +103,7 @@
     }
   }
 
-  &--equal-height-at-large {
+  .flexbox &--equal-height-at-large {
     @include atLarge {
       display: flex;
     }
